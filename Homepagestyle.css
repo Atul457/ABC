@@ -1,0 +1,144 @@
+@import url('http//font.googleapis.com/css?family=Montserrat:400,800');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    background: #f6f5f7;
+    height:100vh;
+	/*color:#fff;
+    font-size:15px;
+    font-weight: bold;*/
+}
+
+span{
+    font-size: 12px;
+    margin-right: 20px;
+}
+.info{
+	position: absolute;
+	top:20px;
+	left:25px;
+	font-weight: bolder;
+	font-size: large;
+	color:#f6f5f7;
+}
+.banner_container
+{
+    background:linear-gradient(to right,#ff2600,#ff416c) no-repeat 0 0 / cover;
+    height:50px;
+	
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding:15px 15px;
+
+	border-radius: 20px;
+}
+
+i
+{
+	padding:5px;
+}
+
+.social
+{
+	text-decoration: none;
+	color:#fff;
+    font-size:15px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a{
+	transition: transform 80ms ease-in;
+}
+a:hover{
+	transform :scale(0.95);
+}
+.user_message_container
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.user
+{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 25%;
+	background-color: rgb(255, 255, 255);
+	height: 100vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	align-items: center;
+	
+}
+
+.message
+{
+	overflow: hidden;
+	background-color: rgb(255, 251, 247) ;
+	flex-basis: 75%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+.online_num
+{
+	height: 7%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: hsl(14, 100%, 42%);
+	font-weight: bold;
+	
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	margin:10px 0 10px 0;
+	width:50%;
+}
+a{
+	text-decoration: none;
+	color:rgb(23, 0, 87);
+	
+}
+.links{
+	margin:20px 0 10px 0;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.form:active{
+	outline:none;
+}
+
+.form,#message::-webkit-scrollbar 
+{
+	width :0;
+	background :transparent;
+}
+.modal-Body,#msgBody::-webkit-scrollbar
+{
+	width :0;
+	background :transparent;
+}
+.user::-webkit-scrollbar
+{
+	width :0;
+	background :transparent;
+}
+li{
+	color:#f6f5f7;
+	font-size: 14px;
+}
